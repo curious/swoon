@@ -27,6 +27,7 @@ module Swoon
             api_url,
             request
           )
+          .and_return(response)
       end
     end
 
